@@ -7,7 +7,6 @@ from cinema.views import (ActorViewSet,
                           CinemaHallViewSet)
 
 
-
 app_name = "cinema"
 
 router = routers.DefaultRouter()
