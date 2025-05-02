@@ -41,8 +41,6 @@ class CinemaHallSerializer(serializers.ModelSerializer):
 
 class CinemaHallDetailSerializer(serializers.ModelSerializer):
 
-    capacity = serializers.SerializerMethodField()
-
     class Meta:
         model = CinemaHall
         fields = (
